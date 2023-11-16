@@ -29,13 +29,15 @@ public class Inheritance_Person {
         stud.study();
        
         
-        Professor professor = new Professor();
+        Person professor = new Professor();
         
         System.out.println("El profesor " + professor.getName() + " " + professor.getLastname() 
         + " tiene " + professor.getAge() + " pesa " + professor.getWeight()+"kg y mide " 
         + professor.getHeight() + " y tiene el pelo " + professor.getHairColour());
         
         professor.arrive();
-        professor.teach();
+        
+        Professor profe = new Professor();
+        profe.teach();
     }
 }
